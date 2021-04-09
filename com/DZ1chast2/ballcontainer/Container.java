@@ -44,23 +44,7 @@ public class Container {
             return false;
     }
 
-    /*public boolean timetorevers(Ball ball){
-        float a = ball.getX() + ball.getRadius();
-        float b = ball.getX() - ball.getRadius();
-        float c = ball.getY() + ball.getRadius();
-        float d = ball.getY() - ball.getRadius();
-
-        if(x1 >= b || x2 <= a ){
-            ball.reflectHorizontal();
-        }
-        else if( y1 >= d || y2<=c){
-            ball.reflectVertical();
-        }
-        else
-            return false;
-
-        return true;
-    }*/
+    
 
     @Override
     public String toString() {
